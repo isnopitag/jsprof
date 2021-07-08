@@ -1,0 +1,17 @@
+{
+  "name": "@sparragus/platzimediaplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "typescript": "^3.5.3"
+  }
+}
